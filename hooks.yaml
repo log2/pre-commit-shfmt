@@ -3,3 +3,4 @@
     description: Rewrites all shell scripts to a canonical format.
     entry: shfmt.sh
     language: script
+    types_or: [sh, bash]
