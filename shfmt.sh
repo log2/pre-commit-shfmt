@@ -28,7 +28,7 @@ while [[ $# -gt 0 ]] && [[ ."$1" == .-* || ."$1" == .--* ]]; do
             ;;
         -fn)
             args+=" -fn"
-            ;; 
+            ;;
         -*)
             echo "Error: Unknown option: $param" >&2
             exit 1
