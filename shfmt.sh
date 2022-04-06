@@ -40,7 +40,7 @@ while [[ $# -gt 0 ]] && [[ ."$1" == .-* || ."$1" == .--* ]]; do
 done
 
 for file in "$@"; do
-    if file "$file" | grep -Pi 'shell script' >/dev/null; then
+    if file "$file" | grep -i 'shell script' >/dev/null; then
         shfmt -l -w $indentation $args "$file"
     fi
 done
