@@ -1,0 +1,6 @@
+-   id: shfmt
+    name: shfmt
+    description: Rewrites all shell scripts to a canonical format using shfmt.
+    entry: shfmt -w
+    language: system
+    types: [shell]
